@@ -1,0 +1,10 @@
+@import './contacts-section.scss';
+@import '../common_styles/banner.scss';
+
+.banner-section {
+  .container {
+    .banner-article__container {
+      display: none;
+    }
+  }
+};
