@@ -1,0 +1,110 @@
+.header {
+	text-transform: uppercase;
+	padding: 0 15px;
+	color: #40474E;
+	.container {}
+	.market__inp {
+		width: 158px;
+		height: 40px;
+		font-family: "Gotam pro", sans-serif;
+		font-size: .9rem;
+		background: #fff;
+		border: 1px solid #AA182C;
+		color: #40474E;
+		transition: .3s;
+		cursor: pointer;
+
+		&:hover {
+			color: #AA182C;
+		   	border: 1px solid #40474E;
+		   	transition: .3s;
+		}
+	}
+
+	.navigation {
+
+		.navigation__list {
+			display: flex;
+			flex-direction: row;
+			column-gap: 40px;
+			.navigation__item {
+				.decorate {
+					color: #AA182C;
+				}
+				.navigation__link {
+		   			transition: .3s;
+					&:hover {
+						color: #AA182C;
+		   				transition: .3s;
+					}
+				}
+				.lang__inp {
+					border: none;
+					outline: none;
+					background-color: #fff;
+					width: 38px;
+					background: url("../../img/icons/arrow.svg") no-repeat 100%;
+    				cursor: pointer;
+				}
+			}
+		}
+	}
+	.lang__inp {
+
+	}
+	.header__icons {
+		display: flex;
+		column-gap: 27px;
+		.header__icon {
+
+			fill:#40474E;
+			cursor: pointer;
+		   	transition: .3s;
+
+			&:hover {
+				fill:#AA182C;
+		   		transition: .3s;
+			}
+		}
+		.heart-icon {
+			position: relative;
+
+			.heart-icon__counter {
+				position: absolute;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				width: 15px;
+				height: 15px;
+				right: -10px;
+				top: -3px;
+				color: #fff;
+				font-size: .5rem;
+				font-weight: 700;
+				z-index: 1;
+				&:after {
+					content: '';
+					position: absolute;
+					display: block;
+					width: 15px;
+					height: 15px;
+					z-index: -1;
+					background: #AA182C;
+					transform: rotate(15deg)
+
+				}
+			}
+		}
+	}
+	@media (max-width: 1530px)  {
+	  .navigation {
+
+		.navigation__list {
+			column-gap: 20px;
+			.navigation__item {
+				font-size: .9rem;
+			}
+		}
+	  }
+	}
+}
