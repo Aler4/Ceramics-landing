@@ -1,7 +1,8 @@
-import Swiper, { Navigation, Pagination, } from 'swiper';
-export const previewSlider = () => {
-    return new Swiper('.swiper', {
-        modules: [Navigation, Pagination],
+import Swiper, {Navigation} from 'swiper';
+
+export const projectSlider = () => {
+    return new Swiper('.projects__slider', {
+        modules: [Navigation],
         direction: 'horizontal',
         loop: true,
         slidesPerView: 1,
@@ -10,15 +11,12 @@ export const previewSlider = () => {
         cssMode: true,
         mousewheel: {
             releaseOnEdges: true,
-            sensitivity: 5.5,
+            sensitivity: 5.6,
         },
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-        },
+
         navigation: {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
         },
-    });
-};
+    })
+}

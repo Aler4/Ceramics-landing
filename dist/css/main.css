@@ -16,6 +16,24 @@
   position: sticky;
 }
 
+.section__title {
+  font-size: 1.25rem;
+  color: #40474E;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.section__title:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 200px;
+  height: 1px;
+  background: #8D9AA5;
+  right: -224px;
+  top: 50%;
+}
+
 @font-face {
   font-family: "Gotam pro";
   src: url("../fonts/GothamPro.ttf") format("truetype");
@@ -33,6 +51,10 @@
   text-transform: uppercase;
   padding: 0 15px;
   color: #40474E;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  background-color: #fff;
 }
 
 .header .market__inp {
@@ -1050,8 +1072,13 @@ button.swiper-pagination-bullet {
   overflow: hidden;
 }
 
+.preview {
+  overflow: hidden;
+}
+
 .preview .swiper {
-  position: revert;
+  width: 100%;
+  height: auto;
 }
 
 .preview .swiper .picture1,
@@ -1059,7 +1086,7 @@ button.swiper-pagination-bullet {
 .preview .swiper .picture3 {
   background: url("../img/kitchen.png") no-repeat 100%;
   background-size: cover;
-  height: 75.85vh;
+  height: 917px;
   display: flex;
   align-items: end;
   position: relative;
@@ -1154,7 +1181,7 @@ button.swiper-pagination-bullet {
   display: flex;
   justify-content: space-between;
   z-index: 2;
-  bottom: 18.5vh;
+  bottom: 6%;
   padding-right: 43px;
 }
 
@@ -1176,6 +1203,90 @@ button.swiper-pagination-bullet {
   height: 34px;
   left: 50%;
   background: #fff;
+}
+
+.projects .container {
+  overflow: visible;
+  position: relative;
+  align-items: start;
+  justify-content: start;
+  -moz-column-gap: 39vw;
+       column-gap: 39vw;
+}
+
+.projects .section__title {
+  margin-top: 120px;
+}
+
+.projects .slider__wrapper {
+  position: absolute;
+  width: 55vw;
+  right: 45vw;
+  top: 224px;
+}
+
+.projects .slider__wrapper .projects__slider {
+  width: 100%;
+}
+
+.projects .slider__wrapper .projects__slider .slide__img {
+  width: 100%;
+  height: auto;
+}
+
+.projects .slider__wrapper .projects__slider .projects__slider__btns {
+  width: 123px;
+  height: 54px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.projects .projects__example {
+  display: flex;
+  flex-direction: column;
+  max-width: 563px;
+  font-family: "Gotam pro", sans-serif;
+  font-weight: 400;
+  padding-top: 224px;
+}
+
+.projects .projects__example .example__all__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 54px;
+  border: 1px solid #6B97BB;
+  font-size: 0.9rem;
+  color: #6B97BB;
+  text-transform: uppercase;
+}
+
+.projects .projects__example .example__all__link:hover {
+  color: #AA182C;
+  border: 1px solid #40474E;
+  transition: 0.3s;
+}
+
+.projects .projects__example .example__title {
+  font-size: 2.75rem;
+  line-height: 3.6rem;
+  font-weight: 400;
+  color: #40474E;
+  padding-top: 85px;
+}
+
+.projects .projects__example .example__description {
+  font-size: 1.1rem;
+  line-height: 1.4rem;
+  font-weight: 300;
+  padding-top: 40px;
+  padding-right: 60px;
+}
+
+.projects .projects__example .example__description p {
+  padding-bottom: 10px;
 }
 
 @media (max-width: 1530px) {
@@ -1205,7 +1316,7 @@ button.swiper-pagination-bullet {
   }
 }
 
-@media (max-width: 1200) {
+@media (max-width: 1200px) {
   .container {
     width: 1140px;
   }
