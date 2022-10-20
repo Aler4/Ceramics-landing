@@ -224,6 +224,12 @@ $themeColor: #007aff !default;
 
   }
 }
+.dark {
+  background-image: url('../img/icons/Arrow__dark.svg');
+  border: 1px solid #98A4AE;
+  width: 54px;
+  height: 54px;
+}
 .swiper-button-prev.swiper-button-disabled,
 .swiper-button-next.swiper-button-disabled {
   opacity: 0.35;

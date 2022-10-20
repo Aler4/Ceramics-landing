@@ -53,7 +53,7 @@
   color: #40474E;
   position: sticky;
   top: 0;
-  z-index: 5;
+  z-index: 333;
   background-color: #fff;
 }
 
@@ -529,6 +529,13 @@
 
 .swiper-button-next:hover {
   background-image: url("../img/icons/Arrow 7_active.svg");
+}
+
+.dark {
+  background-image: url("../img/icons/Arrow__dark.svg");
+  border: 1px solid #98A4AE;
+  width: 54px;
+  height: 54px;
 }
 
 .swiper-button-prev.swiper-button-disabled,
@@ -1182,11 +1189,10 @@ button.swiper-pagination-bullet {
   justify-content: space-between;
   z-index: 2;
   bottom: 6%;
-  padding-right: 43px;
 }
 
 .preview .swiper .swiper__navigation .swiper__mouse-icon {
-  padding-left: 80px;
+  padding-right: 150px;
 }
 
 .preview .swiper .swiper__navigation .swiper__navigation__bnts {
@@ -1205,6 +1211,11 @@ button.swiper-pagination-bullet {
   background: #fff;
 }
 
+.projects {
+  overflow: hidden;
+  height: 1024px;
+}
+
 .projects .container {
   overflow: visible;
   position: relative;
@@ -1221,25 +1232,62 @@ button.swiper-pagination-bullet {
 .projects .slider__wrapper {
   position: absolute;
   width: 55vw;
-  right: 45vw;
+  right: 34vw;
   top: 224px;
 }
 
 .projects .slider__wrapper .projects__slider {
   width: 100%;
+  overflow: hidden;
+}
+
+.projects .slider__wrapper .projects__slider .swiper-slide {
+  z-index: 10;
+}
+
+.projects .slider__wrapper .projects__slider .swiper-slide .zoom {
+  visibility: hidden;
+  position: absolute;
+  width: 119px;
+  height: 119px;
+  background: url("../img/icons/zoom-icon.svg") center no-repeat rgba(249, 249, 250, 0.2);
+}
+
+.projects .slider__wrapper .projects__slider .swiper-slide:hover .zoom {
+  visibility: visible;
 }
 
 .projects .slider__wrapper .projects__slider .slide__img {
   width: 100%;
   height: auto;
+  z-index: -1;
 }
 
 .projects .slider__wrapper .projects__slider .projects__slider__btns {
-  width: 123px;
+  width: 144px;
   height: 54px;
   position: absolute;
-  top: 0;
-  right: 0;
+  top: -5px;
+  right: -34vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.projects .slider__wrapper .projects-slider__thumbs {
+  position: absolute;
+  overflow: hidden;
+  width: 53.5vw;
+  bottom: 57px;
+  right: -50vw;
+}
+
+.projects .slider__wrapper .projects-slider__thumbs .thumb {
+  width: 327px;
+}
+
+.projects .slider__wrapper .projects-slider__thumbs .thumb img {
+  width: 100%;
+  height: auto;
 }
 
 .projects .projects__example {

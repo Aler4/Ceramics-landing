@@ -1,4 +1,6 @@
 .projects {
+  overflow: hidden;
+  height: 1024px;
   .container {
   overflow: visible;
     position: relative;
@@ -12,20 +14,58 @@
   .slider__wrapper {
     position: absolute;
     width: 55vw;
-    right: 45vw;
+    right: 34vw;
     top: 224px;
     .projects__slider {
       width: 100%;
+      overflow: hidden;
+      .swiper-slide {
+        z-index: 10;
+
+        .zoom {
+          visibility: hidden;
+          position: absolute;
+          width: 119px;
+          height: 119px;
+          background:url('../img/icons/zoom-icon.svg') center no-repeat rgb(249 249 250 / .2);
+        }
+
+        &:hover {
+          .zoom {
+            visibility: visible;
+          }
+        }
+      }
       .slide__img {
         width: 100%;
         height: auto;
+        z-index: -1;
       }
       .projects__slider__btns {
-        width: 123px;
+        width: 144px;
         height: 54px;
         position: absolute;
-        top: 0;
-        right: 0;
+        top: -5px;
+        right: -34vw;
+        display: flex;
+        justify-content: space-between;
+      }
+
+
+    }
+    .projects-slider__thumbs {
+      position: absolute;
+      overflow: hidden;
+      width: 53.5vw;
+      bottom: 57px;
+      right: -50vw;
+      .thumb {
+        width: 327px;
+        img {
+          width: 100%;
+          height: auto;
+        }
+
       }
     }
   }
@@ -40,25 +80,25 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      width: 50%;
+       width: 50%;
       height: 54px;
       border: 1px solid #6B97BB;
       font-size: .9rem;
       color: #6B97BB;
       text-transform: uppercase;
       &:hover {
-        color: #AA182C;
-        border: 1px solid #40474E;
-        transition: .3s;
-      }
+       color: #AA182C;
+       border: 1px solid #40474E;
+       transition: .3s;
+     }
     }
-   .example__title {
-     font-size: 2.75rem;
-     line-height: 3.6rem;
-     font-weight: 400;
-     color: #40474E;
-     padding-top: 85px;
-   }
+    .example__title {
+      font-size: 2.75rem;
+      line-height: 3.6rem;
+      font-weight: 400;
+      color: #40474E;
+      padding-top: 85px;
+    }
     .example__description {
       font-size: 1.1rem;
       line-height: 1.4rem;
