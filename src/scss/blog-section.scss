@@ -1,0 +1,39 @@
+.blog {
+  overflow: hidden;
+  .container {
+    overflow: visible;
+    position: relative;
+    height: 850px;
+    align-items: start;
+  }
+  .section__title {
+
+  }
+  .blog__cards {
+    width: 89vw;
+    height: 486px;
+    position: absolute;
+    overflow: hidden;
+    top: 244px;
+    left: 0;
+    .blog__card {
+      width: 380px;
+      .card__image__container {}
+      .card__info {
+        .card__info__type {}
+        .card__info__date {}
+      }
+      .card__title {}
+      .card__activities {
+        .activities__views {
+          .activities__views__icon {}
+          .activities__views__count {}
+        }
+        .activities__comments {
+          .activities__comments__icon {}
+          .activities__comments__count {}
+        }
+      }
+    }
+  }
+}

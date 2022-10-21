@@ -4,10 +4,15 @@ export const previewSlider = () => {
 	return new Swiper('.swiper', {
 		modules: [Navigation, Pagination],
 
-		direction: 'horizontal',
+		direction: 'vertical',
 		slidesPerView: 1,
 		spaceBetween: 30,
-		mousewheel: true,
+
+		mousewheel: {
+			releaseOnEdges: true,
+			sensitivity: 1,
+		},
+
 		pagination: {
 			el: '.swiper-pagination',
 			clickable: true,

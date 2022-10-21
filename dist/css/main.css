@@ -1085,7 +1085,7 @@ button.swiper-pagination-bullet {
 
 .preview .swiper {
   width: 100%;
-  height: auto;
+  height: 917px;
 }
 
 .preview .swiper .picture1,
@@ -1335,6 +1335,30 @@ button.swiper-pagination-bullet {
 
 .projects .projects__example .example__description p {
   padding-bottom: 10px;
+}
+
+.blog {
+  overflow: hidden;
+}
+
+.blog .container {
+  overflow: visible;
+  position: relative;
+  height: 850px;
+  align-items: start;
+}
+
+.blog .blog__cards {
+  width: 89vw;
+  height: 486px;
+  position: absolute;
+  overflow: hidden;
+  top: 244px;
+  left: 0;
+}
+
+.blog .blog__cards .blog__card {
+  width: 380px;
 }
 
 @media (max-width: 1530px) {
