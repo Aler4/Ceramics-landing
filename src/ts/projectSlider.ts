@@ -2,33 +2,25 @@ import Swiper, {Navigation, Pagination} from 'swiper';
 
 export const projectSlider = () => {
 
-    const sliderThumbs = new Swiper('.projects-slider__thumbs', {
+    const sliderThumbs = new Swiper('.thumbs', {
         modules: [Navigation],
         direction: 'horizontal',
-        loop: true,
         slidesPerView: 3,
+        loop: true,
         spaceBetween: 40,
-        lazy: true,
         freeMode: true,
+        watchSlidesProgress: true,
     });
 
-     return new Swiper('.projects__slider', {
+    let slider = new Swiper('.projects__slider', {
         modules: [Navigation, Pagination],
-        direction: 'horizontal',
-        loop: true,
-        slidesPerView: 1,
-        spaceBetween: 1,
-         cssMode: true,
 
-         lazy: true,
-        zoom: true,
         navigation: {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
         },
         thumbs: {
             swiper: sliderThumbs,
-            thumbsContainerClass: 'thumbs',
         },
     });
 

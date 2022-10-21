@@ -3,7 +3,8 @@ export const previewSlider = () => {
     return new Swiper('.swiper', {
         modules: [Navigation, Pagination],
         direction: 'horizontal',
-        loop: true,
+        slidesPerView: 1,
+        spaceBetween: 30,
         mousewheel: true,
         pagination: {
             el: '.swiper-pagination',
