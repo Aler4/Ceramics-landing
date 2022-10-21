@@ -1,6 +1,6 @@
 export function magnify(imgSelector, zoom) {
     let img = document.querySelector(imgSelector);
-    let zoomGlass = img.closest('.swiper-zoom-container').querySelector('.zoom');
+    let zoomGlass = img.closest('div').querySelector('.zoom');
     zoomGlass.style.backgroundImage = "url('" + img.src + "')";
     zoomGlass.style.backgroundRepeat = "no-repeat";
     zoomGlass.innerHTML = 'ASDASDa';

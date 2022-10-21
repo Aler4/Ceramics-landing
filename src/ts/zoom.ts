@@ -1,7 +1,7 @@
  export function magnify(imgSelector: string, zoom: number) {
     let img: HTMLImageElement | null = document.querySelector(imgSelector);
 
-    let zoomGlass: HTMLElement | null = ((img as HTMLElement).closest('.swiper-zoom-container') as HTMLElement).querySelector('.zoom');
+    let zoomGlass: HTMLElement | null = ((img as HTMLElement).closest('div') as HTMLElement).querySelector('.zoom');
 
     (zoomGlass as HTMLElement).style.backgroundImage = "url('" + (img as HTMLImageElement).src + "')";
     (zoomGlass as HTMLElement).style.backgroundRepeat = "no-repeat";

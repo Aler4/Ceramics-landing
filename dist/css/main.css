@@ -1273,7 +1273,7 @@ button.swiper-pagination-bullet {
   justify-content: space-between;
 }
 
-.projects .slider__wrapper .projects-slider__thumbs {
+.projects .slider__wrapper .thumbs {
   position: absolute;
   overflow: hidden;
   width: 53.5vw;
@@ -1281,11 +1281,11 @@ button.swiper-pagination-bullet {
   right: -50vw;
 }
 
-.projects .slider__wrapper .projects-slider__thumbs .thumb {
+.projects .slider__wrapper .thumbs .thumb {
   width: 327px;
 }
 
-.projects .slider__wrapper .projects-slider__thumbs .thumb img {
+.projects .slider__wrapper .thumbs .thumb img {
   width: 100%;
   height: auto;
 }

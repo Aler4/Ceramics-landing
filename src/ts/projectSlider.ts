@@ -1,4 +1,5 @@
 import Swiper, {Navigation, Pagination} from 'swiper';
+
 export const projectSlider = () => {
 
     const sliderThumbs = new Swiper('.projects-slider__thumbs', {
@@ -8,11 +9,7 @@ export const projectSlider = () => {
         slidesPerView: 3,
         spaceBetween: 40,
         lazy: true,
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-
+        freeMode: true,
     });
 
      return new Swiper('.projects__slider', {
@@ -31,7 +28,7 @@ export const projectSlider = () => {
         },
         thumbs: {
             swiper: sliderThumbs,
-            thumbsContainerClass: ".projects-slider__thumbs",
+            thumbsContainerClass: 'thumbs',
         },
     });
 

@@ -5,15 +5,7 @@ export const previewSlider = () => {
 		modules: [Navigation, Pagination],
 		direction: 'horizontal',
   		loop: true,
-  		slidesPerView: 1,
-  		spaceBetween: 1,
-		lazy: true,
-		cssMode: true,
-		mousewheel: {
-			releaseOnEdges: true,
-			sensitivity: 5.5,
-		},
-
+		mousewheel:true,
 		pagination: {
     		el: '.swiper-pagination',
 			clickable: true,

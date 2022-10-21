@@ -20,24 +20,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="008d7021-5a80-4a96-9d50-7b09773dab32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ts/zoom.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/swiper-bundle.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/main.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/html/gym-section.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/html/porjects-section.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/html/projects-section.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/html/projects-section.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/js/main.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/main.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulp/tasks/typescript.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulp/tasks/typescript.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gulp/version.json" beforeDir="false" afterPath="$PROJECT_DIR$/gulp/version.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/html/projects-section.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/projects-section.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/modules/previewSlider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modules/previewSlider.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/modules/projectSlider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modules/projectSlider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/preview-section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/preview-section.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/modules/zoom.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modules/zoom.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/projects-section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/projects-section.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/swiper.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/swiper.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ts/previewSlider.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/ts/previewSlider.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ts/projectSlider.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/ts/projectSlider.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ts/zoom.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/ts/zoom.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +59,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../swiper" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/js" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -69,6 +69,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="C:\Users\Aler4\Study\Ceramics\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Aler4\Study\Ceramics\src\js" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -81,7 +86,9 @@
       <workItem from="1666192010927" duration="8391000" />
       <workItem from="1666201512254" duration="9444000" />
       <workItem from="1666259924884" duration="7784000" />
-      <workItem from="1666270355648" duration="12318000" />
+      <workItem from="1666270355648" duration="12469000" />
+      <workItem from="1666341939581" duration="15000" />
+      <workItem from="1666361474314" duration="6560000" />
     </task>
     <servers />
   </component>
@@ -101,10 +108,14 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="771" y="294" key="FileChooserDialogImpl" timestamp="1666282065241">
+    <state x="681" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1666366632060">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state x="771" y="294" key="FileChooserDialogImpl/62.0.1858.1080@62.0.1858.1080" timestamp="1666282065241" />
+    <state x="681" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/62.0.1858.1080@62.0.1858.1080" timestamp="1666366632060" />
+    <state x="771" y="294" key="FileChooserDialogImpl" timestamp="1666341952966">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="771" y="294" key="FileChooserDialogImpl/62.0.1858.1080@62.0.1858.1080" timestamp="1666341952966" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1666194373663">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
