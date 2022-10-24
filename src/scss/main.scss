@@ -15,7 +15,10 @@
 	position: sticky;
 }
 .section__title {
+	display: flex;
+	align-items: center;
 	font-size: 1.25rem;
+	font-weight: 400;
 	color: #40474E;
 	text-transform: uppercase;
 	position: relative;
@@ -31,7 +34,21 @@
 		top: 50%;
 	}
 }
-
+.link__btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 54px;
+	border: 1px solid #6B97BB;
+	font-size: .9rem;
+	color: #6B97BB;
+	text-transform: uppercase;
+	&:hover {
+		color: #AA182C;
+		border: 1px solid #40474E;
+		transition: .3s;
+	}
+}
 @media (max-width: 1500px) {
 	.container {
 		width: 1360px;
@@ -77,5 +94,6 @@
 @import './preview-section.scss';
 @import './projects-section.scss';
 @import './blog-section.scss';
+@import './instagram-section.scss';
 
 

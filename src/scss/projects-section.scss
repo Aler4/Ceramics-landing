@@ -1,6 +1,7 @@
 .projects {
   overflow: hidden;
   height: 1024px;
+  margin-bottom: 120pxfh;
   .container {
   overflow: visible;
     position: relative;
@@ -18,9 +19,13 @@
     top: 224px;
     .projects__slider {
       width: 100%;
+      height: 806px;
       overflow: hidden;
       .swiper-slide {
         z-index: 10;
+      .swiper-zoom-container {
+        position: relative;
+        cursor: none;
 
         .zoom {
           visibility: hidden;
@@ -29,18 +34,20 @@
           height: 119px;
           background:url('../img/icons/zoom-icon.svg') center no-repeat rgb(249 249 250 / .2);
         }
-
+        .slide__img {
+          width: 100%;
+          height: auto;
+          z-index: -1;
+        }
         &:hover {
           .zoom {
             visibility: visible;
           }
         }
       }
-      .slide__img {
-        width: 100%;
-        height: auto;
-        z-index: -1;
+
       }
+
       .projects__slider__btns {
         width: 144px;
         height: 54px;
@@ -77,20 +84,7 @@
     font-weight: 400;
     padding-top: 224px;
     .example__all__link {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-       width: 50%;
-      height: 54px;
-      border: 1px solid #6B97BB;
-      font-size: .9rem;
-      color: #6B97BB;
-      text-transform: uppercase;
-      &:hover {
-       color: #AA182C;
-       border: 1px solid #40474E;
-       transition: .3s;
-     }
+      width: 50%;
     }
     .example__title {
       font-size: 2.75rem;

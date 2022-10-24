@@ -1,30 +1,113 @@
 .blog {
   overflow: hidden;
+  font-family: "Gotam pro", sans-serif;
+  background: linear-gradient(180deg,rgba(203,212,219,.1) ,#fff 75%);
   .container {
     overflow: visible;
     position: relative;
     height: 850px;
     align-items: start;
   }
-  .section__title {
+  .blog__header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 135px;
 
+    .blog__link {
+      width: 254px;
+    }
   }
   .blog__cards {
     width: 89vw;
-    height: 486px;
+    height: 510px;
+    padding-top: 10px;
+    padding-left: 10px;
     position: absolute;
     overflow: hidden;
     top: 244px;
     left: 0;
+
     .blog__card {
       width: 380px;
-      .card__image__container {}
-      .card__info {
-        .card__info__type {}
-        .card__info__date {}
+      border: 1px solid #CFDAE3;
+      transition: .3s;
+      &:hover {
+        transform: scale(1.045);
+        transition: .3s;
       }
-      .card__title {}
+      .card__image__container {
+        width: 100%;
+        img {
+          display: block;
+          width: 100%;
+          height: auto;
+        }
+      }
+      .blog__card__desc {
+        padding: 20px 20px 15px 20px;
+      }
+      .card__info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 20px;
+        font-size: .9rem;
+        line-height: 1.3rem;
+        text-transform: uppercase;
+        color: #40474E;
+        .card__info__type {
+          width: 94px;
+          height: 26px;
+          text-align: center;
+          padding-top: 5px;
+
+        }
+        .news {
+          background-color: #CFDAE3;;
+        }
+        .article {
+          background-color: #D9D4D4;
+        }
+        .card__info__date {
+
+        }
+      }
+      .card__title {
+        font-size: 1.25rem;
+        line-height: 1.4rem;
+        font-weight: 400;
+        color: #40474E;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -moz-box;
+        -moz-box-orient: vertical;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        line-clamp: 3;
+        box-orient: vertical;
+        cursor: pointer;
+        transition: .3s;
+
+        &:hover {
+          color: #6B97BB;
+          transition: .3s;
+
+        }
+      }
       .card__activities {
+        display: flex;
+        column-gap: 15px;
+        padding-top: 16px;
+
+        .activities__views, .activities__comments {
+          display: flex;
+          align-items: center;
+          column-gap: 6px;
+          font-size: .75rem;
+          color: #6A737A;
+        }
         .activities__views {
           .activities__views__icon {}
           .activities__views__count {}

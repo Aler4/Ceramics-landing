@@ -1,11 +1,12 @@
-import Swiper, {Navigation, Pagination,} from 'swiper';
+import {Navigation, Pagination,} from 'swiper';
 
 export const previewSlider = () => {
 	return new Swiper('.swiper', {
 		modules: [Navigation, Pagination],
 
-		direction: 'vertical',
+		direction: 'horizontal',
 		slidesPerView: 1,
+		loop: true,
 		spaceBetween: 30,
 
 		mousewheel: {

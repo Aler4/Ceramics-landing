@@ -1,4 +1,4 @@
-import Swiper, { Navigation, Pagination } from 'swiper';
+import { Navigation, Pagination } from 'swiper';
 export const projectSlider = () => {
     const sliderThumbs = new Swiper('.thumbs', {
         modules: [Navigation],
@@ -7,10 +7,16 @@ export const projectSlider = () => {
         loop: true,
         spaceBetween: 40,
         freeMode: true,
-        watchSlidesProgress: true,
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
     });
     let slider = new Swiper('.projects__slider', {
         modules: [Navigation, Pagination],
+        loop: true,
+        zoom: true,
+        cssMode: true,
         navigation: {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',

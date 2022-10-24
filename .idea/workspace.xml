@@ -20,23 +20,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="008d7021-5a80-4a96-9d50-7b09773dab32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/html/blog-section.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/blog-section.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ts/blogSlider.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/instagram-section.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/instagram-section.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/main.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/html/blog-section.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/html/blog-section.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/html/projects-section.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/html/projects-section.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/blog-mages/Rectangle 86.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/blog-mages/blog-img_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/blog-mages/blog-img_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/blog-mages/blog-img_4.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/blog-mages/blog-img_4.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/js/main.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/main.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gulp/version.json" beforeDir="false" afterPath="$PROJECT_DIR$/gulp/version.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/blog-mages/Rectangle 86.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/blog-mages/blog-img_4png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/blog-section.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/blog-section.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/projects-section.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/projects-section.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/modules/previewSlider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modules/previewSlider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/modules/projectSlider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modules/projectSlider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/modules/zoom.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modules/zoom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blog-section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blog-section.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/preview-section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/preview-section.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/projects-section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/projects-section.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ts/previewSlider.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/ts/previewSlider.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ts/projectSlider.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/ts/projectSlider.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ts/zoom.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/ts/zoom.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +96,9 @@
       <workItem from="1666259924884" duration="7784000" />
       <workItem from="1666270355648" duration="12469000" />
       <workItem from="1666341939581" duration="15000" />
-      <workItem from="1666361474314" duration="15485000" />
+      <workItem from="1666361474314" duration="16134000" />
+      <workItem from="1666524690285" duration="7119000" />
+      <workItem from="1666612685869" duration="14120000" />
     </task>
     <servers />
   </component>
@@ -123,9 +134,13 @@
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="923" y="0" width="1013" height="650" key="dock-window-1/62.0.1858.1080@62.0.1858.1080" timestamp="1666380667781" />
-    <state x="890" y="275" width="672" height="678" key="search.everywhere.popup" timestamp="1666305800132">
+    <state x="498" y="260" key="run.anything.popup" timestamp="1666527048540">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state x="890" y="275" width="672" height="678" key="search.everywhere.popup/62.0.1858.1080@62.0.1858.1080" timestamp="1666305800132" />
+    <state x="498" y="260" key="run.anything.popup/62.0.1858.1080@62.0.1858.1080" timestamp="1666527048540" />
+    <state x="890" y="275" width="672" height="678" key="search.everywhere.popup" timestamp="1666615180624">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="890" y="275" width="672" height="678" key="search.everywhere.popup/62.0.1858.1080@62.0.1858.1080" timestamp="1666615180624" />
   </component>
 </project>
