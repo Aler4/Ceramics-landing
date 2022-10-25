@@ -20,32 +20,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="008d7021-5a80-4a96-9d50-7b09773dab32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/html/instagram-section.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/instagram-section.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/form-section.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/form-section.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/main.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/html/blog-section.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/html/blog-section.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/html/projects-section.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/html/projects-section.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/blog-mages/Rectangle 86.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/blog-mages/blog-img_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/blog-mages/blog-img_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/blog-mages/blog-img_4.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/blog-mages/blog-img_4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/html/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/html/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/main.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/main.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulp/config/path.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulp/config/path.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulp/tasks/typescript.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/gulp/version.json" beforeDir="false" afterPath="$PROJECT_DIR$/gulp/version.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/blog-section.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/blog-section.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/projects-section.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/projects-section.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/modules/previewSlider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modules/previewSlider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/modules/projectSlider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modules/projectSlider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/modules/zoom.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modules/zoom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blog-section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blog-section.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/modules/makerSwiper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/fonts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/instagram-section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/instagram-section.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/preview-section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/preview-section.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/projects-section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/projects-section.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ts/previewSlider.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/ts/previewSlider.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ts/projectSlider.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/ts/projectSlider.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ts/zoom.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/ts/zoom.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ts/blogSlider.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ts/burger.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ts/makerSwiper.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ts/previewSlider.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ts/projectSlider.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ts/zoom.ts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +100,8 @@
       <workItem from="1666341939581" duration="15000" />
       <workItem from="1666361474314" duration="16134000" />
       <workItem from="1666524690285" duration="7119000" />
-      <workItem from="1666612685869" duration="14120000" />
+      <workItem from="1666612685869" duration="14755000" />
+      <workItem from="1666699402227" duration="14576000" />
     </task>
     <servers />
   </component>
@@ -122,10 +125,10 @@
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="681" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/62.0.1858.1080@62.0.1858.1080" timestamp="1666366632060" />
-    <state x="771" y="294" key="FileChooserDialogImpl" timestamp="1666371281953">
+    <state x="771" y="294" key="FileChooserDialogImpl" timestamp="1666699424930">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state x="771" y="294" key="FileChooserDialogImpl/62.0.1858.1080@62.0.1858.1080" timestamp="1666371281953" />
+    <state x="771" y="294" key="FileChooserDialogImpl/62.0.1858.1080@62.0.1858.1080" timestamp="1666699424930" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1666194373663">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>

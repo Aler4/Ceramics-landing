@@ -3,6 +3,7 @@
 	width: 1300px;
 	justify-content: space-between;
 	align-items: center;
+	padding: 0 15px;
 	margin: 0 auto;
 	overflow: hidden;
 	font-family: "Gotam pro", sans-serif;
@@ -95,5 +96,7 @@
 @import './projects-section.scss';
 @import './blog-section.scss';
 @import './instagram-section.scss';
+@import './form-section.scss';
+@import './footer.scss';
 
 

@@ -3,17 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/reset.min.css?_v=20221024200314">
-  <link rel="stylesheet" href="./css/main.min.css?_v=20221024200314">
-  <script src="https://unpkg.com/swiper/swiper-bundle.min.js?_v=20221024200314"></script>
+  <link rel="stylesheet" href="./css/reset.min.css?_v=20221026014840">
+  <link rel="stylesheet" href="./css/main.min.css?_v=20221026014840">
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js?_v=20221026014840"></script>
 
-  <script type="module" src="./js/main.min.js?_v=20221024200314"></script>
+  <script type="module" src="./js/main.min.js?_v=20221026014840"></script>
   <title>Document</title>
 </head>
 <body>
   <header class="header">
 	<div class="container big">
-		<img src="../img/logo/Logo.svg" class="logo" alt="Logo of site">
+		<a href="#" alt="link to general">
+			<img src="../img/logo/Logo.svg" class="logo" alt="Logo of site">
+		</a>
 
 		<input type="button" class="market__inp" value="в магазин">
 
@@ -416,6 +418,133 @@
         </div>
     </div>
 </section>
+  <section class="form-section">
+    <div class="container big">
+        <form action="" class="form">
+            <h2 class="form__title">
+                Возникли вопросы?
+            </h2>
+            <p class="form__text">
+                Оставьте свой номер, и наши менеджеры <br> свяжутся с Вами
+            </p>
+            <field class="form__inputs">
+                <input type="text" class="form__inp" placeholder="*Имя" name="name" required />
+                <input type="tel" class="form__inp" placeholder="*Телефон" name="telephone" required />
+                <input type="email" class="form__inp" placeholder="Email" name="email" />
+
+                <textarea name="message" id="" cols="30" rows="10" class="form__textarea" placeholder="*Сообщение" ></textarea>
+
+                <label for="sub" class="form__sub-btn">Отправить</label>
+                <input type="submit" class="form__sub" value="" id="sub">
+            </field>
+
+        </form>
+    </div>
+</section>
  </main>
+  <footer class="footer">
+    <div class="container big">
+        <div class="footer__head">
+            <div class="logos__container">
+                <a href="#" alt="link to general">
+                    <img src="../img/logo/footer-logo.svg" alt="ceramics logo" class="logo">
+                </a>
+                <div class="social__logos">
+                    <a href="#">
+                        <img src="../img/icons/facebook-icon.svg" alt="facebook">
+                    </a>
+
+                    <a href="#">
+                        <img src="../img/icons/inst-icon.svg" alt="instagram">
+                    </a>
+
+                    <a href="#">
+                        <img src="../img/icons/youtube-icon.svg" alt="youtube">
+                    </a>
+                </div>
+            </div>
+
+            <div class="lists__container">
+                <dl class="site-navigation lists__container__col__1">
+                    <dt class="list-title">Ceramica</dt>
+                    <dd class="site-navigation__item list-item"><a class="site-navigation__link" href="#"> О компании </a></dd>
+                    <dd class="site-navigation__item list-item"><a class="site-navigation__link" href="#"> Проекты </a></dd>
+                    <dd class="site-navigation__item list-item"><a class="site-navigation__link" href="#"> Где купить </a></dd>
+                    <dd class="site-navigation__item list-item"><a class="site-navigation__link" href="#">Блог</a></dd>
+                    <dd class="site-navigation__item list-item"><a class="site-navigation__link" href="#">Партнерам</a></dd>
+                    <dd class="site-navigation__item list-item"><a class="site-navigation__link" href="#">3D-визуализация</a></dd>
+                    <dd class="site-navigation__item list-item"><a class="site-navigation__link" href="#">Контакты</a></dd>
+                </dl>
+
+                <dl class="brands-list lists__container__col__2">
+                    <dt class="list-title">Бренды</dt>
+                    <dd class="brands__item list-item">Stone Sour</dd>
+                    <dd class="brands__item list-item">Pattern rock</dd>
+                </dl>
+
+                <div class="lists__container__col__3">
+                    <dl class="hr-contacts">
+                        <dt class="list-title">Отдел кадров</dt>
+                        <dd class="hr-contacts__email list-item">ok@ceramica.ua</dd>
+                        <dd class="hr-contacts__tel list-item">+38 050-985-64-25</dd>
+                    </dl>
+
+                    <dl class="trading-contacts">
+                        <dl class="list-title">Торговый дом</dl>
+                        <dd class="trading-contacts__site list-item">sales@ceramica.ua</dd>
+                    </dl>
+                </div>
+
+                <div class="lists__container__col__4">
+                    <dl class="admin-contacts">
+                        <dl class="list-title">Администрация</dl>
+                        <dd class="admin-contacts__email list-item">office@ceramica.ua</dd>
+                        <dd class="admin-contacts__tel list-item">+38 (096) 897-82-65</dd>
+                        <dd class="admin-contacts__tel list-item">+38 (056) 547-32-33</dd>
+                    </dl>
+
+                    <dl class="marketing-contacts">
+                        <dt class="list-title">Отдел маркетинга</dt>
+                        <dd class="marketing-contacts__email list-item">marketing@ceramica.ua</dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="footer-inputs__container">
+                <label class="footer-inp__watch inp" for="watch">смотреть КАТАЛОГ</label>
+                <input type="button" name="" id="watch" class="footer-btn">
+
+                <label class="footer-inp__download inp" for="download"> Скачать каталоги</label>
+                <input type="button" id="download" class="footer-btn">
+            </div>
+        </div>
+
+        <div class="footer__floor">
+            <span class="footer-copyright">
+                Ceramica &copy; 2020
+            </span>
+
+            <div class="footer-languages__container">
+
+                <label for="ua" class="lang-inp">ua</label>
+                <label for="ru" class="lang-inp">ru</label>
+                <label for="en" class="lang-inp">en</label>
+
+                <input type="radio" id="ua" name="ua" class="lang__ua">
+                <input type="radio" id="ru" name="ru" class="lang__ru">
+                <input type="radio" id="en" name="en" class="lang__en">
+
+            </div>
+
+            <div class="site__support">
+                <span class="site__support__text">Разработка и поддержка сайта —</span>
+                <a href="https://artjoker.ua" title="artjoker">
+                    <img src="../img/icons/artjoker-icon.svg" alt="artjoker logo" class="site__support__icon">
+                </a>
+            </div>
+        </div>
+    </div>
+
+</footer>
+
 </body>
 </html>

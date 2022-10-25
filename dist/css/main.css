@@ -3,6 +3,7 @@
   width: 1300px;
   justify-content: space-between;
   align-items: center;
+  padding: 0 15px;
   margin: 0 auto;
   overflow: hidden;
   font-family: "Gotam pro", sans-serif;
@@ -57,14 +58,6 @@
 @font-face {
   font-family: "Gotam pro";
   src: url("../fonts/GothamPro.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Glyphter";
-  src: url("../fonts/Glyphter.eot");
-  src: url("../fonts/Glyphter.eot?#iefix") format("embedded-opentype"), url("../fonts/Glyphter.woff") format("woff"), url("../fonts/Glyphter.ttf") format("truetype"), url("../fonts/Glyphter.svg#Glyphter") format("svg");
-  font-weight: normal;
-  font-style: normal;
 }
 
 .header {
@@ -233,7 +226,7 @@
   outline: none;
   background-color: #fff;
   width: 38px;
-  background: url("../../img/icons/arrow.svg") no-repeat 100%;
+  background: url("../img/icons/arrow.svg") no-repeat 100%;
   cursor: pointer;
 }
 
@@ -1234,7 +1227,7 @@ button.swiper-pagination-bullet {
 .projects {
   overflow: hidden;
   height: 1024px;
-  margin-bottom: 120pxfh;
+  margin-bottom: 120px;
 }
 
 .projects .container {
@@ -1253,7 +1246,7 @@ button.swiper-pagination-bullet {
 .projects .slider__wrapper {
   position: absolute;
   width: 55vw;
-  right: 34vw;
+  right: 35vw;
   top: 224px;
 }
 
@@ -1479,6 +1472,7 @@ button.swiper-pagination-bullet {
   display: flex;
   padding: 120px 0 110px 0;
   background-color: rgba(240, 243, 245, 0.2);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .instagram .section__title:before {
@@ -1560,6 +1554,254 @@ button.swiper-pagination-bullet {
 
 .instagram .instagram-photos .link__inst .link__inst-btn:hover {
   background-color: #4a6f8d;
+  transition: 0.3s;
+}
+
+.form-section {
+  display: flex;
+  background: linear-gradient(180deg, rgba(203, 212, 219, 0.3), #fff 75%);
+  padding: 120px 0;
+}
+
+.form-section .container {
+  justify-content: right;
+  background-image: url("../img/form-img.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-top: 100px;
+  padding-bottom: 89px;
+  padding-right: 130px;
+}
+
+.form-section .form {
+  display: flex;
+  flex-direction: column;
+  padding-top: 76px;
+  padding-left: 112px;
+  padding-bottom: 104px;
+  width: 50%;
+  background-color: #fff;
+}
+
+.form-section .form .form__title {
+  font-size: 2.75rem;
+  line-height: 130%;
+  font-weight: 400;
+  color: #40474E;
+  padding-bottom: 16px;
+}
+
+.form-section .form .form__text {
+  font-size: 1.12rem;
+  line-height: 1.6rem;
+  color: #40474E;
+  font-weight: 300;
+  padding-bottom: 30px;
+}
+
+.form-section .form .form__inputs {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  row-gap: 17px;
+  font-family: "Gotam pro", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.form-section .form .form__inp {
+  width: 78.9%;
+  height: 50px;
+  border: 1px solid #CFDAE3;
+  padding-left: 20px;
+}
+
+.form-section .form .form__textarea {
+  width: 78.9%;
+  height: 100px;
+  border: 1px solid #CFDAE3;
+  font-family: "Gotam pro", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  padding-top: 12px;
+  resize: none;
+  outline: none;
+  padding-left: 20px;
+}
+
+.form-section .form .form__sub {
+  display: none;
+}
+
+.form-section .form .form__sub-btn {
+  width: 83.2%;
+  height: 53px;
+  color: #fff;
+  background: #6B97BB;
+  display: flex;
+  padding-top: 20px;
+  padding-left: 30px;
+  position: relative;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form-section .form .form__sub-btn:after {
+  content: "";
+  display: block;
+  position: absolute;
+  background: url("../img/icons/Arrow 7.svg") no-repeat;
+  width: 26px;
+  height: 13px;
+  right: 22px;
+  transform: rotate(180deg);
+}
+
+.form-section .form .form__sub-btn:hover {
+  background-color: #4a6f8d;
+  transition: 0.3s;
+}
+
+.footer {
+  background-color: #6A737A;
+  padding-top: 80px;
+}
+
+.footer .container {
+  flex-direction: column;
+}
+
+.footer .footer__head {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.footer .footer__head .logos__container {
+  width: 132px;
+  text-align: center;
+}
+
+.footer .footer__head .logos__container .social__logos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  padding-top: 39px;
+}
+
+.footer .footer__head .lists__container {
+  display: flex;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+  color: #fff;
+  padding-left: 120px;
+  padding-right: 89px;
+}
+
+.footer .footer__head .lists__container .list-title {
+  font-size: 1.12rem;
+  line-height: 1.7rem;
+  font-weight: 400;
+  padding-bottom: 15px;
+}
+
+.footer .footer__head .lists__container .list-item {
+  font-size: 0.88rem;
+  line-height: 1rem;
+  padding-bottom: 10px;
+}
+
+.footer .footer__head .lists__container .marketing-contacts {
+  padding-top: 22px;
+}
+
+.footer .footer__head .lists__container .trading-contacts {
+  padding-top: 49px;
+}
+
+.footer .footer__head .lists__container .site-navigation .site-navigation__link {
+  color: #fff;
+  position: relative;
+  cursor: pointer;
+}
+
+.footer .footer__head .lists__container .site-navigation .site-navigation__link:after {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 1px;
+  width: 0;
+  background-color: #fff;
+  bottom: -1px;
+  transition: 0.3s;
+}
+
+.footer .footer__head .lists__container .site-navigation .site-navigation__link:hover:after {
+  width: 100%;
+  transition: 0.6s;
+}
+
+.footer .footer__head .footer-inputs__container .inp {
+  width: 262px;
+  height: 54px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 0.88rem;
+  cursor: pointer;
+  transition: 0.3s;
+  padding-left: 20px;
+  position: relative;
+}
+
+.footer .footer__head .footer-inputs__container .inp:after {
+  content: "";
+  display: block;
+  position: absolute;
+}
+
+.footer .footer__head .footer-inputs__container .footer-btn {
+  display: none;
+}
+
+.footer .footer__head .footer-inputs__container .footer-inp__watch {
+  background-color: #6B97BB;
+}
+
+.footer .footer__head .footer-inputs__container .footer-inp__watch:after {
+  background: url("../img/icons/Arrow 7.svg") no-repeat;
+  width: 26px;
+  height: 13px;
+  right: 22px;
+  transform: rotate(180deg);
+}
+
+.footer .footer__head .footer-inputs__container .footer-inp__watch:hover {
+  background-color: #4a6f8d;
+  transition: 0.3s;
+}
+
+.footer .footer__head .footer-inputs__container .footer-inp__download {
+  background-color: inherit;
+  border: 1px solid #fff;
+  margin-top: 20px;
+  transition: 0.3s;
+}
+
+.footer .footer__head .footer-inputs__container .footer-inp__download:after {
+  background: url("../img/icons/download-icon.svg") no-repeat;
+  width: 21px;
+  height: 16.5px;
+  right: 18px;
+}
+
+.footer .footer__head .footer-inputs__container .footer-inp__download:hover {
+  border-color: #8D9AA5;
+  color: #4a6f8d;
   transition: 0.3s;
 }
 
