@@ -2,22 +2,23 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/reset.min.css?_v=20221026014840">
-  <link rel="stylesheet" href="./css/main.min.css?_v=20221026014840">
-  <script src="https://unpkg.com/swiper/swiper-bundle.min.js?_v=20221026014840"></script>
+<!--  <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+  <link rel="stylesheet" href="./css/reset.min.css?_v=20221027164424">
+  <link rel="stylesheet" href="./css/main.min.css?_v=20221027164424">
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js?_v=20221027164424"></script>
 
-  <script type="module" src="./js/main.min.js?_v=20221026014840"></script>
+  <script type="module" src="./js/main.min.js?_v=20221027164424"></script>
   <title>Document</title>
 </head>
 <body>
   <header class="header">
 	<div class="container big">
-		<a href="#" alt="link to general">
+		<a href="#">
 			<img src="../img/logo/Logo.svg" class="logo" alt="Logo of site">
 		</a>
 
-		<input type="button" class="market__inp" value="в магазин">
+		<input type="button" class="market__inp text-btn" value="в магазин">
+		<input type="button" class="market__inp icon-btn">
 
 		<nav class="navigation">
 			 <input class="navigation__toggle" type="checkbox" id="menu-tgl" />
@@ -31,7 +32,8 @@
 				<li class="navigation__item"><a href="" class="navigation__link"><span class="decorate">3D</span>-визуализация</a></li>
 				<li class="navigation__item"><a href="" class="navigation__link">Контакты</a></li>
 				<li class="navigation__item">
-					<select class="lang__inp" name="languege" id="">
+
+					<select class="lang__inp" name="languege" id="lang">
 						<option value="RU">RU</option>
 						<option value="UKR">UKR</option>
 					</select>
@@ -201,18 +203,18 @@
                    <!-- Slides -->
                    <div class="swiper-slide">
                        <div class="swiper-zoom-container" id="slide1">
-                           <img src="../img/gym-images/gym-ceramics_1.png" alt="photo with gym" class="slide__img">
+                           <img src="../img/gym-images/gym-ceramics_1.webp" alt="photo with gym" class="slide__img">
                        </div>
                    </div>
                    <div class="swiper-slide">
                        <div class="swiper-zoom-container" id="slide2">
-                           <img src="../img/gym-images/gym-ceramics_2.png" alt="photo with gym" class="slide__img">
+                           <img src="../img/gym-images/gym-ceramics_2.webp" alt="photo with gym" class="slide__img">
                        </div>
 
                    </div>
                    <div class="swiper-slide">
                        <div class="swiper-zoom-container" id="slide3">
-                           <img src="../img/gym-images/gym-ceramics_3.png" alt="photo with gym" class="slide__img">
+                           <img src="../img/gym-images/gym-ceramics_3.webp" alt="photo with gym" class="slide__img">
                        </div>
 
                    </div>
@@ -228,13 +230,13 @@
                <div class="thumbs"> <!-- Слайдер с превью -->
                    <div class="swiper-wrapper">
                        <div class="swiper-slide" role="group">
-                           <div class="thumb"><img src="../img/gym-images/gym-ceramics_1.png" alt="ceramics"/></div>
+                           <div class="thumb"><img src="../img/gym-images/gym-ceramics_1.webp" alt="ceramics"/></div>
                        </div>
                        <div class="swiper-slide" role="group">
-                           <div class="thumb"><img src="../img/gym-images/gym-ceramics_2.png" alt="ceramics"/></div>
+                           <div class="thumb"><img src="../img/gym-images/gym-ceramics_2.webp" alt="ceramics"/></div>
                        </div>
                        <div class="swiper-slide" role="group">
-                           <div class="thumb"><img src="../img/gym-images/gym-ceramics_3.png" alt="ceramics"/></div>
+                           <div class="thumb"><img src="../img/gym-images/gym-ceramics_3.webp" alt="ceramics"/></div>
                        </div>
                    </div>
            </div>
@@ -242,7 +244,7 @@
 
 
         <div class="projects__example">
-            <a href="#" class="example__all__link link__btn" alt="link to all works">
+            <a href="#" class="example__all__link link__btn" title="go to all works">
                 смотреть все проекты
             </a>
             <h2 class="example__title">
@@ -265,7 +267,7 @@
            <div class="section__title">
                Интересное из блога
            </div>
-           <a href="#" class="blog__link link__btn" alt="link to blog">перейти в блог</a>
+           <a href="#" class="blog__link link__btn">перейти в блог</a>
        </header>
 
        <div class="blog__cards">
@@ -275,7 +277,7 @@
                <div class="swiper-slide">
                    <div class="blog__card">
                        <div class="card__image__container">
-                           <img src="../img/blog-mages/blog-img_1.png" alt="room">
+                           <img src="../img/blog-mages/blog-img_1.webp" alt="room">
                        </div>
                        <div class="blog__card__desc">
                            <div class="card__info">
@@ -306,7 +308,7 @@
                <div class="swiper-slide">
                    <div class="blog__card">
                        <div class="card__image__container">
-                           <img src="../img/blog-mages/blog-img_2.png" alt="tile">
+                           <img src="../img/blog-mages/blog-img_2.webp" alt="tile">
                        </div>
                        <div class="blog__card__desc">
                            <div class="card__info">
@@ -336,7 +338,7 @@
                <div class="swiper-slide">
                    <div class="blog__card">
                        <div class="card__image__container">
-                           <img src="../img/blog-mages/blog-img_3.png" alt="room">
+                           <img src="../img/blog-mages/blog-img_3.webp" alt="room">
                        </div>
                        <div class="blog__card__desc">
                            <div class="card__info">
@@ -366,7 +368,7 @@
                <div class="swiper-slide">
                    <div class="blog__card">
                        <div class="card__image__container">
-                           <img src="../img/blog-mages/blog-img_4.png" alt="room">
+                           <img src="../img/blog-mages/blog-img_4.webp" alt="room">
                        </div>
                        <div class="blog__card__desc">
                            <div class="card__info">
@@ -400,11 +402,11 @@
     <div class="container">
         <h2 class="section__title">следите за нами в instagram</h2>
         <div class="instagram-photos">
-            <div class="photo__container"><img class="instagram-photo" src="../img/inst-images/inst-img_1.png" alt="sofa photo"></div>
-            <div class="photo__container"><img class="instagram-photo" src="../img/inst-images/inst-img_2.png" alt="tile photo"></div>
-            <div class="photo__container"><img class="instagram-photo" src="../img/inst-images/inst-img_3.png" alt="living room photo"></div>
-            <div class="photo__container"><img class="instagram-photo" src="../img/inst-images/inst-img_4.png" alt="tile photo"></div>
-            <div class="photo__container"><img class="instagram-photo" src="../img/inst-images/inst-img_5.png" alt="tile floor photo"></div>
+            <div class="photo__container"><img class="instagram-photo" src="../img/inst-images/inst-img_1.webp" alt="sofa photo"></div>
+            <div class="photo__container"><img class="instagram-photo" src="../img/inst-images/inst-img_2.webp" alt="tile photo"></div>
+            <div class="photo__container"><img class="instagram-photo" src="../img/inst-images/inst-img_3.webp" alt="living room photo"></div>
+            <div class="photo__container"><img class="instagram-photo" src="../img/inst-images/inst-img_4.webp" alt="tile photo"></div>
+            <div class="photo__container"><img class="instagram-photo" src="../img/inst-images/inst-img_5.webp" alt="tile floor photo"></div>
             <div class="photo__container link__inst">
                 <a class="link__inst-icon" href="https://www.instagram.com">
                     <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -420,23 +422,23 @@
 </section>
   <section class="form-section">
     <div class="container big">
-        <form action="" class="form">
+        <form class="form">
             <h2 class="form__title">
                 Возникли вопросы?
             </h2>
             <p class="form__text">
                 Оставьте свой номер, и наши менеджеры <br> свяжутся с Вами
             </p>
-            <field class="form__inputs">
+            <div class="form__inputs">
                 <input type="text" class="form__inp" placeholder="*Имя" name="name" required />
                 <input type="tel" class="form__inp" placeholder="*Телефон" name="telephone" required />
                 <input type="email" class="form__inp" placeholder="Email" name="email" />
 
-                <textarea name="message" id="" cols="30" rows="10" class="form__textarea" placeholder="*Сообщение" ></textarea>
+                <textarea name="message" cols="30" rows="10" class="form__textarea" placeholder="*Сообщение" ></textarea>
 
                 <label for="sub" class="form__sub-btn">Отправить</label>
                 <input type="submit" class="form__sub" value="" id="sub">
-            </field>
+            </div>
 
         </form>
     </div>
@@ -446,7 +448,7 @@
     <div class="container big">
         <div class="footer__head">
             <div class="logos__container">
-                <a href="#" alt="link to general">
+                <a href="#" title="go to general">
                     <img src="../img/logo/footer-logo.svg" alt="ceramics logo" class="logo">
                 </a>
                 <div class="social__logos">
@@ -490,14 +492,14 @@
                     </dl>
 
                     <dl class="trading-contacts">
-                        <dl class="list-title">Торговый дом</dl>
+                        <dt class="list-title">Торговый дом</dt>
                         <dd class="trading-contacts__site list-item">sales@ceramica.ua</dd>
                     </dl>
                 </div>
 
                 <div class="lists__container__col__4">
                     <dl class="admin-contacts">
-                        <dl class="list-title">Администрация</dl>
+                        <dt class="list-title">Администрация</dt>
                         <dd class="admin-contacts__email list-item">office@ceramica.ua</dd>
                         <dd class="admin-contacts__tel list-item">+38 (096) 897-82-65</dd>
                         <dd class="admin-contacts__tel list-item">+38 (056) 547-32-33</dd>
@@ -511,10 +513,10 @@
             </div>
             <div class="footer-inputs__container">
                 <label class="footer-inp__watch inp" for="watch">смотреть КАТАЛОГ</label>
-                <input type="button" name="" id="watch" class="footer-btn">
+                <input type="button" id="watch" class="footer-btn" value="смотреть КАТАЛОГ">
 
                 <label class="footer-inp__download inp" for="download"> Скачать каталоги</label>
-                <input type="button" id="download" class="footer-btn">
+                <input type="button" id="download" class="footer-btn" value="Скачать каталоги">
             </div>
         </div>
 
@@ -525,13 +527,14 @@
 
             <div class="footer-languages__container">
 
+                <input type="radio" id="ua" name="lang" class="lang">
                 <label for="ua" class="lang-inp">ua</label>
-                <label for="ru" class="lang-inp">ru</label>
-                <label for="en" class="lang-inp">en</label>
 
-                <input type="radio" id="ua" name="ua" class="lang__ua">
-                <input type="radio" id="ru" name="ru" class="lang__ru">
-                <input type="radio" id="en" name="en" class="lang__en">
+                <input type="radio" id="ru" name="lang" class="lang">
+                <label for="ru"  class="lang-inp">ru</label>
+
+                <input type="radio" id="en" name="lang" class="lang">
+                <label for="en" class="lang-inp">en</label>
 
             </div>
 

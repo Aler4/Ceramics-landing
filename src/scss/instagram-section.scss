@@ -1,10 +1,11 @@
 .instagram {
   display: flex;
-  padding: 120px 0 110px 0;
+  padding: 137px 0 110px 0;
   background-color: rgba(240, 243, 245,.2);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 
   .section__title {
+    letter-spacing: .15rem;
     &:before {
       content: "";
       display: block;
@@ -14,6 +15,9 @@
       background: #8D9AA5;
       left: -224px;
       top: 50%;
+    }
+    &:after {
+      right: -218px;
     }
   }
   .container {
@@ -37,6 +41,7 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      padding-top: 19px;
       box-shadow: -3px 2px 28px -18px black;
       background-color: rgb(255,255,255);
       .link__inst-icon {
@@ -73,6 +78,7 @@
         background-color: #6B97BB;
         font-size: .75rem;
         line-height: 1rem;
+        letter-spacing: .1rem;
         text-transform: uppercase;
         cursor: pointer;
         transition: .3s;

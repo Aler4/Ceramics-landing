@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,34 +23,53 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="008d7021-5a80-4a96-9d50-7b09773dab32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/html/form-section.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/form-section.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/main.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/html/blog-section.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/html/blog-section.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/html/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/html/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/html/form-section.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/html/form-section.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/html/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/html/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/html/instagram-section.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/html/instagram-section.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/html/projects-section.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/html/projects-section.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/form-img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/kitchen.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulp/config/path.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulp/config/path.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulp/tasks/typescript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/main.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/main.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gulp/version.json" beforeDir="false" afterPath="$PROJECT_DIR$/gulp/version.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/blog-section.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/blog-section.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/form-section.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/form-section.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/html/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/instagram-section.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/instagram-section.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/projects-section.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/projects-section.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/blog-mages/1624006123_cyberpunk_2077.torrent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/blog-mages/[udemy.com Maximilian Schwarzmuller] React Native - The Practical Guide [2022, ENG] [rutracker-5874682].torrent" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/blog-mages/blog-img_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/blog-mages/blog-img_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/blog-mages/blog-img_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/blog-mages/blog-img_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/form-img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/gym-images/gym-ceramics_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/gym-images/gym-ceramics_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/gym-images/gym-ceramics_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/inst-images/inst-img_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/inst-images/inst-img_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/inst-images/inst-img_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/inst-images/inst-img_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/inst-images/inst-img_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/kitchen.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/modules/makerSwiper.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/fonts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/modules/blogSlider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modules/blogSlider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blog-section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blog-section.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/form-section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/form-section.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/instagram-section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/instagram-section.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/preview-section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/preview-section.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/projects-section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/projects-section.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ts/blogSlider.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ts/burger.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ts/makerSwiper.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ts/previewSlider.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ts/projectSlider.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ts/zoom.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/swiper.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/swiper.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +79,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
@@ -65,21 +90,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../swiper" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="C:\Users\Aler4\Study\Ceramics\node_modules\typescript\lib" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Aler4/Study/Strahovanie-layout&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Aler4\Study\Ceramics\src\js" />
@@ -101,7 +125,13 @@
       <workItem from="1666361474314" duration="16134000" />
       <workItem from="1666524690285" duration="7119000" />
       <workItem from="1666612685869" duration="14755000" />
-      <workItem from="1666699402227" duration="14576000" />
+      <workItem from="1666699402227" duration="14622000" />
+      <workItem from="1666782203226" duration="28000" />
+      <workItem from="1666782381936" duration="72000" />
+      <workItem from="1666782461698" duration="207000" />
+      <workItem from="1666782776055" duration="2000" />
+      <workItem from="1666784955917" duration="13246000" />
+      <workItem from="1666875365701" duration="2862000" />
     </task>
     <servers />
   </component>
@@ -118,32 +148,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="681" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1666366632060">
-      <screen x="62" y="0" width="1858" height="1080" />
-    </state>
-    <state x="681" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/62.0.1858.1080@62.0.1858.1080" timestamp="1666366632060" />
-    <state x="771" y="294" key="FileChooserDialogImpl" timestamp="1666699424930">
-      <screen x="62" y="0" width="1858" height="1080" />
-    </state>
-    <state x="771" y="294" key="FileChooserDialogImpl/62.0.1858.1080@62.0.1858.1080" timestamp="1666699424930" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1666194373663">
-      <screen x="62" y="0" width="1858" height="1080" />
-    </state>
-    <state width="498" height="446" key="SwitcherDM/62.0.1858.1080@62.0.1858.1080" timestamp="1666194373663" />
-    <state x="923" y="0" width="1013" height="650" key="dock-window-1" timestamp="1666380667781">
-      <screen x="62" y="0" width="1858" height="1080" />
-    </state>
-    <state x="923" y="0" width="1013" height="650" key="dock-window-1/62.0.1858.1080@62.0.1858.1080" timestamp="1666380667781" />
-    <state x="498" y="260" key="run.anything.popup" timestamp="1666527048540">
-      <screen x="62" y="0" width="1858" height="1080" />
-    </state>
-    <state x="498" y="260" key="run.anything.popup/62.0.1858.1080@62.0.1858.1080" timestamp="1666527048540" />
-    <state x="890" y="275" width="672" height="678" key="search.everywhere.popup" timestamp="1666615180624">
-      <screen x="62" y="0" width="1858" height="1080" />
-    </state>
-    <state x="890" y="275" width="672" height="678" key="search.everywhere.popup/62.0.1858.1080@62.0.1858.1080" timestamp="1666615180624" />
   </component>
 </project>

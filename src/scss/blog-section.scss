@@ -1,4 +1,5 @@
 .blog {
+  display: flex;
   overflow: hidden;
   font-family: "Gotam pro", sans-serif;
   background: linear-gradient(180deg,rgba(203,212,219,.1) ,#fff 75%);
@@ -8,20 +9,25 @@
     height: 850px;
     align-items: start;
   }
+  .section__title {
+    &:after {
+      right: -224px;
+    }
+  }
   .blog__header {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding-top: 135px;
+    padding-top: 128px;
 
     .blog__link {
-      width: 254px;
+      width: 260px;
     }
   }
   .blog__cards {
     width: 89vw;
     height: 510px;
-    padding-top: 10px;
+    padding-top: 17px;
     padding-left: 10px;
     position: absolute;
     overflow: hidden;
@@ -32,6 +38,7 @@
       width: 380px;
       border: 1px solid #CFDAE3;
       transition: .3s;
+
       &:hover {
         transform: scale(1.045);
         transition: .3s;
@@ -57,11 +64,7 @@
         text-transform: uppercase;
         color: #40474E;
         .card__info__type {
-          width: 94px;
-          height: 26px;
-          text-align: center;
-          padding-top: 5px;
-
+          padding: 5px 10px 3px 10px;
         }
         .news {
           background-color: #CFDAE3;;

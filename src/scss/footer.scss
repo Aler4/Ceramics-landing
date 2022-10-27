@@ -1,6 +1,9 @@
 .footer {
+  display: flex;
+  overflow: hidden;
   background-color: #6A737A;
   padding-top: 80px;
+  padding-bottom: 20px;
   .container {
     flex-direction: column;
 
@@ -16,17 +19,32 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        column-gap: 20px;
-        padding-top: 39px;
+        column-gap: 28px;
+        padding-top: 36px;
 
+        img {
+          width: 24px;
+        }
       }
     }
     .lists__container {
       display: flex;
       column-gap: 50px;
-      color: #fff;
       padding-left: 120px;
-      padding-right: 89px;
+      padding-right: 84px;
+      color: #fff;
+      padding-bottom: 80px;
+      
+      @media (max-width: 1500px) {
+        column-gap: 0;
+        padding-right: 20px;
+      }
+      .lists__container__col__1, .lists__container__col__2 {
+        width: 150px;
+      }
+      .lists__container__col__3, .lists__container__col__4 {
+        width: 209px;
+      }
       .list-title {
         font-size: 1.12rem;
         line-height: 1.7rem;
@@ -72,6 +90,9 @@
 
     }
     .footer-inputs__container {
+      @media (max-width: 1360px) {
+        display: none;
+      }
       .inp {
         width: 262px;
         height: 54px;
@@ -84,6 +105,7 @@
         transition: .3s;
         padding-left: 20px;
         position: relative;
+
 
         &:after {
           content: '';
@@ -132,5 +154,63 @@
     }
   }
 
-  .footer__floor {}
+  .footer__floor {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+
+    .footer-copyright {
+      font-size: .88rem;
+      font-weight: 300;
+    }
+    .footer-languages__container {
+      height: 17px;
+      padding-left: 126px;
+      .lang {
+        display: none;
+        &:checked + .lang-inp {
+          opacity: 1;
+          padding: 0 8px;
+          font-weight: 300;
+          &:after, &:before {
+            height: 10px;
+            bottom: 3px;
+            transition: .6s;
+
+          }
+
+        }
+      }
+
+      .lang-inp {
+        font-size: .88rem;
+        text-transform: uppercase;
+        opacity: 0.4;
+        position: relative;
+        &:after, &:before {
+          content: '';
+          position: absolute;
+          display: block;
+          height: 0;
+          width: 1px;
+          background-color: #fff;
+        }
+        &:after {
+          right: 0;
+        }
+        &:before {
+          left: 0;
+        }
+      }
+    }
+    .site__support {
+      display: flex;
+      align-items: center;
+      font-size: .75rem;
+      font-weight: 400;
+      column-gap: 4px;
+      letter-spacing: -.5px;
+    }
+  }
 }

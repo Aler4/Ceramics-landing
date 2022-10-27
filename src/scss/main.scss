@@ -19,6 +19,7 @@
 	display: flex;
 	align-items: center;
 	font-size: 1.25rem;
+	letter-spacing: .1rem;
 	font-weight: 400;
 	color: #40474E;
 	text-transform: uppercase;
@@ -31,7 +32,7 @@
 		width: 200px;
 		height: 1px;
 		background: #8D9AA5;
-		right: -224px;
+		right: -182px;
 		top: 50%;
 	}
 }
@@ -53,9 +54,6 @@
 @media (max-width: 1500px) {
 	.container {
 		width: 1360px;
-	}
-	.big {
-		width: inherit;
 	}
 }
 @media (max-width: 1360px) {

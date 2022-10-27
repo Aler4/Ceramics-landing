@@ -2,7 +2,7 @@
     <div class="container big">
         <div class="footer__head">
             <div class="logos__container">
-                <a href="#" alt="link to general">
+                <a href="#" title="go to general">
                     <img src="../img/logo/footer-logo.svg" alt="ceramics logo" class="logo">
                 </a>
                 <div class="social__logos">
@@ -46,14 +46,14 @@
                     </dl>
 
                     <dl class="trading-contacts">
-                        <dl class="list-title">Торговый дом</dl>
+                        <dt class="list-title">Торговый дом</dt>
                         <dd class="trading-contacts__site list-item">sales@ceramica.ua</dd>
                     </dl>
                 </div>
 
                 <div class="lists__container__col__4">
                     <dl class="admin-contacts">
-                        <dl class="list-title">Администрация</dl>
+                        <dt class="list-title">Администрация</dt>
                         <dd class="admin-contacts__email list-item">office@ceramica.ua</dd>
                         <dd class="admin-contacts__tel list-item">+38 (096) 897-82-65</dd>
                         <dd class="admin-contacts__tel list-item">+38 (056) 547-32-33</dd>
@@ -67,10 +67,10 @@
             </div>
             <div class="footer-inputs__container">
                 <label class="footer-inp__watch inp" for="watch">смотреть КАТАЛОГ</label>
-                <input type="button" name="" id="watch" class="footer-btn">
+                <input type="button" id="watch" class="footer-btn" value="смотреть КАТАЛОГ">
 
                 <label class="footer-inp__download inp" for="download"> Скачать каталоги</label>
-                <input type="button" id="download" class="footer-btn">
+                <input type="button" id="download" class="footer-btn" value="Скачать каталоги">
             </div>
         </div>
 
@@ -81,13 +81,14 @@
 
             <div class="footer-languages__container">
 
+                <input type="radio" id="ua" name="lang" class="lang">
                 <label for="ua" class="lang-inp">ua</label>
-                <label for="ru" class="lang-inp">ru</label>
-                <label for="en" class="lang-inp">en</label>
 
-                <input type="radio" id="ua" name="ua" class="lang__ua">
-                <input type="radio" id="ru" name="ru" class="lang__ru">
-                <input type="radio" id="en" name="en" class="lang__en">
+                <input type="radio" id="ru" name="lang" class="lang">
+                <label for="ru"  class="lang-inp">ru</label>
+
+                <input type="radio" id="en" name="lang" class="lang">
+                <label for="en" class="lang-inp">en</label>
 
             </div>
 

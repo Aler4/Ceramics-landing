@@ -1,5 +1,7 @@
 .header {
 	text-transform: uppercase;
+	display: flex;
+	overflow: hidden;
 	padding: 0 15px;
 	color: #40474E;
 	position: sticky;
@@ -11,17 +13,41 @@
 		width: 158px;
 		height: 40px;
 		font-family: "Gotam pro", sans-serif;
-		font-size: .9rem;
+		font-size: .88rem;
 		background: #fff;
 		border: 1px solid #AA182C;
 		color: #40474E;
 		transition: .3s;
 		cursor: pointer;
+		text-transform: uppercase;
 
 		&:hover {
 			color: #AA182C;
 		   	border: 1px solid #40474E;
 		   	transition: .3s;
+		}
+		 @media (max-width: 1200px) {
+			 width: 50px;
+			 content: '';
+		 }
+	}
+	.text-btn {
+		display: block;
+		@media (max-width: 1200px) {
+			display: none;
+		}
+	}
+	.icon-btn {
+		display: none;
+		width: 50px;
+		height: 45px;
+		background: url("../img/icons/shop-icon.svg");
+		background-size: 65%;
+		background-position: center;
+		background-repeat: no-repeat;
+		border-radius: 8px;
+		@media (max-width: 1200px) {
+			display: block;
 		}
 	}
 .burger {
@@ -161,6 +187,7 @@
 	.header__icons {
 		display: flex;
 		column-gap: 27px;
+		padding-top: 13px;
 		.header__icon {
 
 			fill:#40474E;
