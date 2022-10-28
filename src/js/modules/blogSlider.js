@@ -1,4 +1,4 @@
-import Swiper from 'swiper';
+import "../swiper-bundle.js";
 export const blogSlider = () => {
     return new Swiper('.blog__cards', {
         direction: 'horizontal',
@@ -16,9 +16,7 @@ export const blogSlider = () => {
             1840: {
                 spaceBetween: 30,
                 slidesPerView: 4.2,
-
             },
         },
     });
-
 };

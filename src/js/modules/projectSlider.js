@@ -1,4 +1,6 @@
+import "../swiper-bundle.js";
 import { Navigation, Pagination } from 'swiper';
+
 export const projectSlider = () => {
     const sliderThumbs = new Swiper('.thumbs', {
         modules: [Navigation],

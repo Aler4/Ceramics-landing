@@ -1,4 +1,6 @@
-import { Navigation, Pagination, } from 'swiper';
+import "../swiper-bundle.js";
+import {Navigation, Pagination} from "swiper";
+
 export const previewSlider = () => {
     return new Swiper('.swiper', {
         modules: [Navigation, Pagination],

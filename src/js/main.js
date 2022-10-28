@@ -3,6 +3,7 @@ import {previewSlider} from './modules/previewSlider.js';
 import {projectSlider} from "./modules/projectSlider.js";
 import {blogSlider} from "./modules/blogSlider.js";
 import {cursor} from "./modules/zoom.js";
+import { Swiper } from "swiper";
 
 
 let zoomSliders = document.querySelectorAll('.swiper-zoom-container');
